@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 
 app.all("/dishes", (req, res, next) => {
   res.statusCode = 200;
-  res.setHeader("COntent-Type", "text/plain");
+  res.setHeader("Content-Type", "text/plain");
   next();
 });
 
